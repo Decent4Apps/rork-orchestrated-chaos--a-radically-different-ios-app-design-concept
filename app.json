@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Orchestrated Chaos: A Radically Different iOS App Design Concept",
-    "slug": "orchestrated-chaos-a-radically-different-ios-app-design-concept",
+    "name": "Orchestrated Chaos OG",
+    "slug": "orchestratedog",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.orchestrated-chaos-a-radically-different-ios-app-design-concept",
+      "bundleIdentifier": "app.rork.orchestratedog",
       "infoPlist": {
         "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera",
         "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
@@ -26,7 +26,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "app.rork.orchestrated-chaos-a-radically-different-ios-app-design-concept",
+      "package": "app.rork.orchestratedog",
       "permissions": [
         "CAMERA",
         "RECORD_AUDIO"
