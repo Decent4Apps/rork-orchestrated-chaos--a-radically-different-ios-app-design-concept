@@ -1,5 +1,5 @@
 import { Tabs } from "expo-router";
-import { Zap, Shuffle, Grid3x3, Sparkles } from "lucide-react-native";
+import { Zap, Shuffle, Grid3x3, Sparkles, Gamepad2, Camera } from "lucide-react-native";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
@@ -65,6 +65,28 @@ export default function TabLayout() {
           tabBarIcon: ({ color, focused }) => (
             <View style={[styles.iconContainer, focused && styles.iconActive]}>
               <Sparkles color={color} size={24} />
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="game"
+        options={{
+          title: "GAME",
+          tabBarIcon: ({ color, focused }) => (
+            <View style={[styles.iconContainer, focused && styles.iconActive]}>
+              <Gamepad2 color={color} size={24} />
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="camera"
+        options={{
+          title: "SCAN",
+          tabBarIcon: ({ color, focused }) => (
+            <View style={[styles.iconContainer, focused && styles.iconActive]}>
+              <Camera color={color} size={24} />
             </View>
           ),
         }}

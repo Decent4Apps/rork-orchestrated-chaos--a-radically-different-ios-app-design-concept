@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
   corruptedText: {
     fontSize: 14,
     color: "#00ff88",
-    fontFamily: Platform.OS === "ios" ? "Courier" : "monospace",
+    fontFamily: "monospace",
     marginVertical: 5,
     opacity: 0.6,
   },
